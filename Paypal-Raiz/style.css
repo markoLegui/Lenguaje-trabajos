@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0070ba;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu button {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 14px;
+    font-weight: bold;
+    
+}
+
+.inicio-sesion {
+    background-color: #cfcfcf;
+    color: black;
+}
+
+.crear-cuenta {
+    background-color: #000000;
+    color: white;
+}
+
+.hamburguesa {
+    font-size: 25px;
+}
+
+
+/* CONTENIDO */
+
+.principal {
+    min-height: calc(100vh - 120px);
+    background-color: #5bc0eb;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;    
+}
+
+
+/* SELECTOR */
+
+.selector {
+    display: inline-flex;
+    background-color: #8bd3f5;
+    border-radius: 20px;
+    padding: 2px;
+
+}
+
+.selector button {
+    border: none;
+    border-radius: 20px;
+    padding: 7px 15px;
+    background: transparent;
+}
+
+.selector .activo {
+    background-color: white;
+}
+
+
+/* TITULO */
+
+h1 {
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+
+/* TARJETA */
+
+.tarjeta {
+    width: 225px;
+    height: 300px;
+    margin: 50px auto 0;
+    background-color: white;
+    border-radius: 18px 18px 0 0;
+    padding: 15px;
+}
+
+.tarjeta h2 {
+    margin: 0 0 15px;
+}
+
+
+/* IMAGEN */
+
+.imagen {
+    width: 100%;
+    height: 160px;
+    background-color: #ddd;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 40px;
+    background-color: black;
+    color: #00a8e8;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 13px;
+}
