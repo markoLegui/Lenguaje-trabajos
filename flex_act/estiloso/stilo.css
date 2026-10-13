@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #fd9f06;
+    padding: 10vh 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #0cfd1c;
+    min-width: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+}
+
+.corto {
+    background-color: #fd0606;
+    text-align: center;
+    min-width: 25vh;
+}
+
+.largo {
+    background-color: #f5fa00;
+    text-align: center;
+    min-width: 50vh;
+}
