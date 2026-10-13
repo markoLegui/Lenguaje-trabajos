@@ -22,7 +22,7 @@ li {
     padding: 10px;
 }
 
-.corto {
+.normal {
     background-color: #fd0606;
     text-align: center;
     min-width: 25vh;
@@ -30,6 +30,12 @@ li {
 
 .largo {
     background-color: #f5fa00;
+    text-align: center;
+    min-height: 10vh;
+}
+
+.ancho {
+    background-color: #06fdfd;
     text-align: center;
     min-width: 50vh;
 }
